@@ -18,7 +18,7 @@ const Budget = () => {
                         { 
                             
                         dispatch({ type: 'SET_BUDGET', payload: (event.target.value) });
-                        console.log(budget);
+                        
                             /*if(budget > (event.target.value)) {
                                 alert("Out of funds");
                             }else{
